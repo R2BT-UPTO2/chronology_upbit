@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
+
+*{
+    font-family: 'Dongle', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.each_stage_container{
+    margin-top: 5px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #1c387d;
+    border-radius: 1rem;
+    width: 500px;
+    height: 450px; /*600px*/
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes quiz1{
+    from{
+        height: 600px;
+    }to{
+        height: 700px;
+    }
+}
+
+@keyframes init_each_stage_container{
+    from{
+        width: 10px;
+        height: 10px;
+    }to{
+        width: 500px;
+        height: 450px;
+    }
+}
+
+@keyframes up_each_stage_container{
+    from{
+        height: 450px;
+    }to{
+        height: 600px;
+    }
+}
+
+#stage_img{
+    animation-name: init_stage_img;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes init_stage_img{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+body{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    animation-name: init_body;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes init_body{
+    from{
+        background-color: white;
+    }to{
+        background-color: black;
+    }
+}
+
+@keyframes full_logo_body{
+    from{
+        background-color: black;
+    }to{
+        background-color: white;
+    }
+}
+
+@keyframes map_body{
+    from{
+        background-color: white;
+        opacity: 0;
+    }to{
+        background-color: rgb(6, 18, 78);
+        opacity: 1;
+    }
+}
+
+@keyframes clear_body{
+    from{
+        background-color: red;
+    }to{
+        background-color: black;
+    }
+}
+
+.all_container{
+    position: relative;
+    z-index:+1;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.logo_container{
+    border: none;
+}
+
+.end_container{
+    margin-top: 5px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #1c387d;
+    border-radius: 1rem;
+    width: 500px;
+    height: 600px;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.main_container{
+    margin-top: 5px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #1c387d;
+    border-radius: 1rem;
+    width: 500px;
+    height: 600px;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes end_page{
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}
+
+@keyframes cardToInit_main_container{
+    from{
+        height: 400px;
+    }to{
+        height: 600px;
+    }
+}
+
+@keyframes cardNews_main_container{
+    from{
+        height: 600px;
+    }to{
+        height: 500px;
+    }
+}
+
+@keyframes quiz_main_container{
+    from{
+        height: 500px;
+    }to{
+        height: 400px;
+    }
+}
+
+.bt_container{
+    margin-top: 30px;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.end_bt_container{
+    margin-top: 30px;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.bt_container_2{
+    margin-top: 30px;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.bt_container_explain{
+    margin-top: 30px;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes cardNews_bt_container{
+    from{
+        margin-top: 30px;
+    }to{
+        margin-top: 40px;
+    }
+}
+
+@keyframes basic_bt_container{
+    from{
+        margin-top: 70px;
+    }to{
+        margin-top: 30px;
+    }
+}
+
+.full_logo_container{
+    display: none;
+    text-align: center;
+    margin-top: 300px;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes init_full_logo_container{
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}
+
+.quiz_container{
+    color: rgb(90,90,90);
+}
+
+.stage_quiz{
+    color: white;
+}
+
+.ans:hover{
+    background-color: rgb(57, 148, 223);
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+#finish_logo{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.effect_container{
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes effect_black{
+    from{
+        background-color: none;
+    }to{
+        background-color: white;
+    }
+}
+
+#main_img{
+    border-radius: 1rem;
+    
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+#end_img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes init_main_img{
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}
+
+@keyframes main_img_basic{
+    from{
+        opacity:0.8;
+    }to{
+        opacity: 1;
+    }
+}
+
+.map_door{
+    width:100px;
+    height:100px;
+}
+
+#map_door0{
+    position: relative;
+    margin-right: 250px;
+}
+
+#map_door1{
+    position: relative;
+    margin-left:370px;
+}
+
+#map_door2{
+    position: relative;
+    margin-top: 50px;
+    margin-right: 370px;
+    opacity: 0.5;
+}
+
+#map_door3{
+    position: relative;
+    margin-left: 360px;
+    margin-top: 10px;
+}
+
+#map_door4{
+    position: relative;
+    margin-right: 200px;
+}
+
+.black_sub{
+    margin-top: 200px;
+    padding-top: 30px;
+    height: 100px;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.metameta:hover{
+    color: green;
+}
+
+#game_txt{
+    text-align: center;
+    font-size: 25px;
+    width: 200px;
+    border-radius: 1rem;
+}
+
+#game_bt{
+    font-size: 25px;
+    border-radius: 10rem;
+    width: 50px;
+}
+/* ______________________________________________________________________________________________________________ */
+
+.button_base {
+    margin: 0;
+    border: 0;
+    font-size: 25px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -100px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    cursor: default;
+}
+
+.button_base:hover {
+    cursor: pointer;
+}
+
+/* ### ### ### 07 */
+.b07_3d_double_roll {
+    perspective: 500px;
+    -webkit-perspective: 500px;
+    -moz-perspective: 500px;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+}
+
+.b07_3d_double_roll div {
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+    pointer-events: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.b07_3d_double_roll div:nth-child(1) {
+    color: #f1f1f1;
+    background-color: #1c387d;
+    opacity: 0.9;
+    z-index: 0;
+    width: 100%;
+    height: 50px;
+    clip: rect(0px, 100px, 50px, 0px);
+    position: absolute;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    transform-origin: 50% 50% -25px;
+    -webkit-transform-origin: 50% 50% -25px;
+    -moz-transform-origin: 50% 50% -25px;
+}
+
+.b07_3d_double_roll div:nth-child(2) {
+    background-color: rgba(19, 19, 165, 0.441);
+    z-index: -1;
+    width: 100%;
+    height: 50px;
+    clip: rect(0px, 100px, 50px, 0px);
+    position: absolute;
+    transform: rotateX(90deg);
+    -webkit-transform: rotateX(90deg);
+    -moz-transform: rotateX(90deg);
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transform-origin: 50% 50% -25px;
+    -webkit-transform-origin: 50% 50% -25px;
+    -moz-transform-origin: 50% 50% -25px;
+}
+
+.b07_3d_double_roll div:nth-child(3) {
+    color: #f1f1f1;
+    background-color: #1c387d;
+    opacity: 0.9;
+    z-index: 0;
+    width: 100%;
+    height: 50px;
+    clip: rect(0px, 200px, 50px, 100px);
+    position: absolute;
+    transition: all 0.2s ease 0.1s;
+    -webkit-transition: all 0.2s ease 0.1s;
+    -moz-transition: all 0.2s ease 0.1s;
+    transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    transform-origin: 50% 50% -25px;
+    -webkit-transform-origin: 50% 50% -25px;
+    -moz-transform-origin: 50% 50% -25px;
+}
+
+.b07_3d_double_roll div:nth-child(4) {
+    background-color: rgba(19, 19, 165, 0.441);
+    z-index: -1;
+    width: 100%;
+    height: 50px;
+    clip: rect(0px, 200px, 50px, 100px);
+    position: absolute;
+    transform: rotateX(-90deg);
+    -webkit-transform: rotateX(-90deg);
+    -moz-transform: rotateX(-90deg);
+    transition: all 0.2s ease 0.1s;
+    -webkit-transition: all 0.2s ease 0.1s;
+    -moz-transition: all 0.2s ease 0.1s;
+    transform-origin: 50% 50% -25px;
+    -webkit-transform-origin: 50% 50% -25px;
+    -moz-transform-origin: 50% 50% -25px;
+}
+
+.b07_3d_double_roll:hover div:nth-child(1) {
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transform: rotateX(-90deg);
+    -webkit-transform: rotateX(-90deg);
+    -moz-transform: rotateX(-90deg);
+}
+
+.b07_3d_double_roll:hover div:nth-child(2) {
+    color: #ffffff;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+}
+
+.b07_3d_double_roll:hover div:nth-child(3) {
+    transition: all 0.2s ease 0.1s;
+    -webkit-transition: all 0.2s ease 0.1s;
+    -moz-transition: all 0.2s ease 0.1s;
+    transform: rotateX(90deg);
+    -webkit-transform: rotateX(90deg);
+    -moz-transform: rotateX(90deg);
+}
+
+.b07_3d_double_roll:hover div:nth-child(4) {
+    color: #ffffff;
+    transition: all 0.2s ease 0.1s;
+    -webkit-transition: all 0.2s ease 0.1s;
+    -moz-transition: all 0.2s ease 0.1s;
+    transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+}

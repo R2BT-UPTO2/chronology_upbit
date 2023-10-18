@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang = "ko">
+    <head>
+        <meta charset = "utf-8">
+        <title>UPBIT_CHRONOLOGY</title>
+        <link rel = "stylesheet" href = "style2.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=0.7"/>
+    </head>
+    <body>
+        <div class = "all_container">
+            <div class = "logo_container">
+                <a href = ""><img id = "second_logo" src ="img/logo_white_real.png" width = "400px" height = "80px"></a>
+            </div>
+            <div class = "effect_container">
+                <img src = "img/upbit.PNG" id = "finish_logo" style = "display: none;" onclick = "upbit_open();">
+                <div class = "end_container" style = "display: none;">
+                    <img id = "end_img" src = "img/end1.png" width = "400px" height = "500px">
+                    <div class = "end_bt_container">
+                        <div class="button_base b07_3d_double_roll" onclick = "end_story()">
+                            <div>다음</div>
+                            <div>다음</div>
+                            <div>다음</div>
+                            <div>다음</div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "main_container">
+                    <img id = "main_img" src = "img/story0.png" width = "400px" height = "500px">
+                    <div class = "quiz_container"></div>
+                    <div class = "bt_container">
+                        <div class="button_base b07_3d_double_roll" onclick = "next_bt_click()">
+                            <div>다음</div>
+                            <div>다음</div>
+                            <div>다음</div>
+                            <div>다음</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = "each_stage_container" style = "display: none;">
+                <div class = "explain_box">
+                    <div class = "text_space"> </div>
+                    <div class = "explain_stage" width = "400px" height = "500px">
+                        <div class = "bt_container_explain">
+                            <div class="button_base b07_3d_double_roll" onclick = "check_stage();">
+                                <div>다음</div>
+                                <div>다음</div>
+                                <div>다음</div>
+                                <div>다음</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "stage_quiz">
+                </div>
+                <div class = "meta_container" style = "display: none;">
+                    <h1 class = "meta_quiz" style = "color: #f1f1f1"></h1>
+                    <div class = "meta_ans" style = "color: skyblue; font-size: 40px;">
+                    </div>
+                </div>
+                <div class = "game_container" style = "display: none;">
+                    <iframe src="https://scratch.mit.edu/projects/899313972/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                    <input type = "text" id = "game_txt">
+                    <input type = "button" id = "game_bt" value = "V" onclick = "check_game();">
+                </div>
+                <div class = "base_stage">
+                    <img id = "stage_img" src = "none.png" width = "400px" style = "display: none;">
+                    
+                    <div class = "bt_container_2" style = "display: none;">
+                        <div class="button_base b07_3d_double_roll" onclick = "check_stage();">
+                            <div>다음</div>
+                            <div>다음</div>
+                            <div>다음</div>
+                            <div>다음</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class = "black_container">
+            
+        </div>
+        <div class = "full_logo_container">
+            <img src = "img/logo_black.png" width = "480px" height = "96px">
+        </div>
+        <script type = "text/javascript" src = "script2.js"></script>
+    </body>
+</html>
