@@ -311,7 +311,7 @@ let stage_1 = () => {
         <h1 style = "font-size: 40px; color: rgb(57, 148, 223);">업비트에 대한 설명으로 올바른 것은?</h1><br>
             <h4 id = "aa1" style = "font-size: 30px" class = "ans" onclick = "quiz2_answer1(this.id)">1. KRW(원화) 마켓, USDT(테더) 마켓 두 가지뿐이다.</h4><br>
             <h4 id = "aa2" style = "font-size: 30px" class = "ans" onclick = "quiz2_answer1(this.id)">2. 업비트에서 최소 주문 가능 금액은 KRW 마켓 - 1,000 KRW, BTC 마켓 - 0.0005 BTC, USDT 마켓 - 0.0005 USDT이다.</h4><br>
-            <h4 id = "aa3" style = "font-size: 30px" class = "ans" onclick = "quiz2_answer1(this.id)">3. 업비트에서 사용자가 접수한 주문은 시간 > 가격 우선 순서로 매매가 체결된다.</h4>
+            <h4 id = "aa3" style = "font-size: 30px" class = "ans" onclick = "quiz2_answer1(this.id)">3. 업비트에서 사용자가 접수한 주문은 시간 > 가격 우선 순서로 매매가 체결된다.</h4><br>
             <h4 id = "aa4" style = "font-size: 30px" class = "ans" onclick = "quiz2_answer1(this.id)">4. 업비트에서 제공하는 주문 방식은 지정가 주문, 시장가 주문, 예약 주문 방식으로 사용자가 매매하려는 디지털 자산의 가격과 수량을 직접 입력하여 제출하는 주문방식을 지정가 주문이라 한다.</h4><br>
         `;
     }
