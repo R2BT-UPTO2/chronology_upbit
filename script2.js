@@ -107,10 +107,6 @@ let next_bt_click = () => {
         document.querySelector('#map_door2').style.opacity = '1';
         document.querySelector('.door_box').style.display = 'block';
     }
-
-    setTimeout(()=>{
-        document.querySelector('#main_img').style.animationName = 'main_img_basic';
-    },300); 
 };
 
 let quiz0_answer = (x) => { // x는 선지 id
