@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Noto+Sans+KR&family=Sunflower:wght@300&display=swap');
 
 *{
+    /*font-family: 'Dongle', sans-serif;*/
     font-family: 'Dongle', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Sunflower', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -23,7 +26,7 @@
     from{
         height: 600px;
     }to{
-        height: 700px;
+        height: 550px;
     }
 }
 
@@ -42,6 +45,22 @@
         height: 450px;
     }to{
         height: 600px;
+    }
+}
+
+@keyframes second_each_stage_container{
+    from{
+        height: 450px;
+    }to{
+        height: 470px;
+    }
+}
+
+@keyframes second_each_stage_container{
+    from{
+        height: 450px;
+    }to{
+        height: 420px;
     }
 }
 
@@ -168,7 +187,7 @@ body{
     from{
         height: 500px;
     }to{
-        height: 400px;
+        height: 420px;
     }
 }
 

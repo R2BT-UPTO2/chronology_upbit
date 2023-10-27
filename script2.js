@@ -41,11 +41,11 @@ let next_bt_click = () => {
         document.querySelector('.main_container').style.animationName = 'quiz_main_container';
         document.querySelector('#main_img').style.display = 'none';
         document.querySelector('.quiz_container').innerHTML += `
-            <h1 style = "font-size: 50px; color: #1c387d;">블록체인에 대한 설명으로 올바른 것은?</h1><br>
-            <h4 id = "aa1" style = "font-size: 30px" class = "ans" onclick = "quiz0_answer(this.id)">1. 누구나 열람할 수 있는 장부에 거래 내역을 투명하게 공개한다.</h4>
-            <h4 id = "aa2" style = "font-size: 30px" class = "ans" onclick = "quiz0_answer(this.id)">2. 여러 대의 컴퓨터에 복제하는 것을 막고 한 대의 컴퓨터에 저장하는 데이터 저장 기술이다.</h4>
-            <h4 id = "aa3" style = "font-size: 30px" class = "ans" onclick = "quiz0_answer(this.id)">3. 거래 때마다 모든 거래 참여자들이 정보 공유하는 것을 방지하여 거래 내역 유출을 막을 수 있다.</h4>
-            <h4 id = "aa4" style = "font-size: 30px" class = "ans" onclick = "quiz0_answer(this.id)">4. 블록체인은 가상화폐를 만들기 위해 제작된 기술로 가상통화에만 사용된다.</h4>
+            <h1 style = "font-size: 30px; color: #1c387d;">블록체인에 대한 설명으로 올바른 것은?</h1><br><br>
+            <h4 id = "aa1" style = "font-size: 20px; border-top: 2px solid #1c387d; padding-top: 5px;" class = "ans" onclick = "quiz0_answer(this.id)">1. 누구나 열람할 수 있는 장부에 거래 내역을 투명하게 공개한다.</h4><br>
+            <h4 id = "aa2" style = "font-size: 20px; border-top: 2px solid #1c387d; padding-top: 5px;" class = "ans" onclick = "quiz0_answer(this.id)">2. 여러 대의 컴퓨터에 복제하는 것을 막고 한 대의 컴퓨터에 저장하는 데이터 저장 기술이다.</h4><br>
+            <h4 id = "aa3" style = "font-size: 20px; border-top: 2px solid #1c387d; padding-top: 5px;" class = "ans" onclick = "quiz0_answer(this.id)">3. 거래 때마다 모든 거래 참여자들이 정보 공유하는 것을 방지하여 거래 내역 유출을 막을 수 있다.</h4><br>
+            <h4 id = "aa4" style = "font-size: 20px; border-top: 2px solid #1c387d; padding-top: 5px;" class = "ans" onclick = "quiz0_answer(this.id)">4. 블록체인은 가상화폐를 만들기 위해 제작된 기술로 가상통화에만 사용된다.</h4>
         `;
         document.querySelector('.bt_container').style.display = 'none';
     }
@@ -75,7 +75,7 @@ let next_bt_click = () => {
         document.querySelector('.main_container').style.backgroundSize = 'cover';
         
         document.querySelector('#second_logo').src = 'img/logo_white_real.png';
-        document.querySelector('body').style.animationDuration = '5s';
+        document.querySelector('body').style.animationDuration = '3s';
         document.querySelector('body').style.animationName = 'map_body';
         document.querySelector('#main_img').style.display = 'none';
         document.querySelector('.bt_container').style.display = 'none';
@@ -228,11 +228,11 @@ let stage_0 = () => {
         document.querySelector('.base_stage').style.display = 'none';
         document.querySelector('.each_stage_container').style.animationName = 'quiz1';
         document.querySelector('.stage_quiz').innerHTML += `
-        <h1 style = "font-size: 40px; color: rgb(57, 148, 223);">디지털 자산에 대한 설명으로 올바른 것은?</h1><br>
-            <h4 id = "aa1" style = "font-size: 30px" class = "ans" onclick = "quiz1_answer1(this.id)">1. 테더라고도 불리는 'USDT'는 USDT의 가치가 달러와 가격이 1:0.5로 환산되게 만들어 둔 코인으로, 스테이블 코인이다.</h4><br>
-            <h4 id = "aa2" style = "font-size: 30px" class = "ans" onclick = "quiz1_answer1(this.id)">2. 디지털 자산은 비트코인 같은 암호화폐 뿐만 아니라 하드디스크, SSD와 같은 기억장치에 저장될 수 있는 사진, 음원과 같은 저작물 등 전산화되어 존재하는 모든 종류의 자산을 말한다.</h4><br>
-            <h4 id = "aa3" style = "font-size: 30px" class = "ans" onclick = "quiz1_answer1(this.id)">3. 비트코인이 가진 한계를 보완하고 이를 대체하겠다는 목표로 등장한 코인은 이더리움, 리플, 도지코인 등으로 구분되며 이를 통틀어 알트코인이라고 한다.</h4><br>
-            <h4 id = "aa4" style = "font-size: 30px" class = "ans" onclick = "quiz1_answer1(this.id)">4. 업비트에서는 '트레블룰'이라는 절차를 시행 중인데, 트레블룰이란 거래소 간 100만원 상당 이상의 코인을 주고 받을 때 송금인과 수취인의 성명, 국적, 주소 등을 기록하는 절차를 의미한다.</h4>
+        <h1 style = "font-size: 27px; color: rgb(57, 148, 223);">디지털 자산에 대한 설명으로 올바른 것은?</h1><br>
+            <h4 id = "aa1" style = "font-size: 20px; border-top: 2px solid #1c387d; padding-top: 10px;" class = "ans" onclick = "quiz1_answer1(this.id)">1. 테더라고도 불리는 'USDT'는 USDT의 가치가 달러와 가격이 1:0.5로 환산되게 만들어 둔 코인으로, 스테이블 코인이다.</h4><br>
+            <h4 id = "aa2" style = "font-size: 20px; border-top: 2px solid #1c387d; padding-top: 10px;" class = "ans" onclick = "quiz1_answer1(this.id)">2. 디지털 자산은 비트코인 같은 암호화폐 뿐만 아니라 하드디스크, SSD와 같은 기억장치에 저장될 수 있는 사진, 음원과 같은 저작물 등 전산화되어 존재하는 모든 종류의 자산을 말한다.</h4><br>
+            <h4 id = "aa3" style = "font-size: 20px; border-top: 2px solid #1c387d; padding-top: 10px;" class = "ans" onclick = "quiz1_answer1(this.id)">3. 비트코인이 가진 한계를 보완하고 이를 대체하겠다는 목표로 등장한 코인은 이더리움, 리플, 도지코인 등으로 구분되며 이를 통틀어 알트코인이라고 한다.</h4><br>
+            <h4 id = "aa4" style = "font-size: 20px; border-top: 2px solid #1c387d; padding-top: 10px;" class = "ans" onclick = "quiz1_answer1(this.id)">4. 업비트에서는 '트레블룰'이라는 절차를 시행 중인데, 트레블룰이란 거래소 간 100만원 상당 이상의 코인을 주고 받을 때 송금인과 수취인의 성명, 국적, 주소 등을 기록하는 절차를 의미한다.</h4>
         `;
     }
 
@@ -302,13 +302,13 @@ let stage_1 = () => {
 
     if (stage_num == 11){
         document.querySelector('.base_stage').style.display = 'none';
-        document.querySelector('.each_stage_container').style.animationName = 'quiz1';
+        document.querySelector('.each_stage_container').style.animationName = 'second_each_stage_container';
         document.querySelector('.stage_quiz').innerHTML += `
-        <h1 style = "font-size: 40px; color: rgb(57, 148, 223);">업비트에 대한 설명으로 올바른 것은?</h1><br>
-            <h4 id = "aa1" style = "font-size: 30px" class = "ans" onclick = "quiz2_answer1(this.id)">1. KRW(원화) 마켓, USDT(테더) 마켓 두 가지뿐이다.</h4><br>
-            <h4 id = "aa2" style = "font-size: 30px" class = "ans" onclick = "quiz2_answer1(this.id)">2. 업비트에서 최소 주문 가능 금액은 KRW 마켓 - 1,000 KRW, BTC 마켓 - 0.0005 BTC, USDT 마켓 - 0.0005 USDT이다.</h4><br>
-            <h4 id = "aa3" style = "font-size: 30px" class = "ans" onclick = "quiz2_answer1(this.id)">3. 업비트에서 사용자가 접수한 주문은 시간 > 가격 우선 순서로 매매가 체결된다.</h4><br>
-            <h4 id = "aa4" style = "font-size: 30px" class = "ans" onclick = "quiz2_answer1(this.id)">4. 업비트에서 제공하는 주문 방식은 지정가 주문, 시장가 주문, 예약 주문 방식으로 사용자가 매매하려는 디지털 자산의 가격과 수량을 직접 입력하여 제출하는 주문방식을 지정가 주문이라 한다.</h4><br>
+        <h1 style = "font-size: 27px; color: rgb(57, 148, 223);">업비트에 대한 설명으로 올바른 것은?</h1><br>
+            <h4 id = "aa1" style = "font-size: 20px; border-top: 2px solid #1c387d; padding-top: 10px;" class = "ans" onclick = "quiz2_answer1(this.id)">1. KRW(원화) 마켓, USDT(테더) 마켓 두 가지뿐이다.</h4><br>
+            <h4 id = "aa2" style = "font-size: 20px; border-top: 2px solid #1c387d; padding-top: 10px;" class = "ans" onclick = "quiz2_answer1(this.id)">2. 업비트에서 최소 주문 가능 금액은 KRW 마켓 - 1,000 KRW, BTC 마켓 - 0.0005 BTC, USDT 마켓 - 0.0005 USDT이다.</h4><br>
+            <h4 id = "aa3" style = "font-size: 20px; border-top: 2px solid #1c387d; padding-top: 10px;" class = "ans" onclick = "quiz2_answer1(this.id)">3. 업비트에서 사용자가 접수한 주문은 시간 > 가격 우선 순서로 매매가 체결된다.</h4><br>
+            <h4 id = "aa4" style = "font-size: 20px; border-top: 2px solid #1c387d; padding-top: 10px;" class = "ans" onclick = "quiz2_answer1(this.id)">4. 업비트에서 제공하는 주문 방식은 지정가 주문, 시장가 주문, 예약 주문 방식으로 사용자가 매매하려는 디지털 자산의 가격과 수량을 직접 입력하여 제출하는 주문방식을 지정가 주문이라 한다.</h4><br>
         `;
     }
 
@@ -342,14 +342,14 @@ let stage_2 = () => {
         document.querySelector('.each_stage_container').style.display = 'block';
         document.querySelector('.each_stage_container').style.animationName = 'init_each_stage_container';
         document.querySelector('.explain_box').style.display = 'block';
-        document.querySelector('.text_space').innerHTML = `<h1 style = "color: white;">
-            "<br>
+        document.querySelector('.text_space').innerHTML = `<h1 style = "color: white; font-size: 28px">
+            "<br><br>
             여기는 두나무숲이야!<br>
             <br>
             왠지모르지만, 따뜻한 기운이 느껴져..<br>
             <br>
             두나무숲 속에 숨겨진 블록을 찾아내자.
-            <br>
+            <br><br>
             "</h1>
         `;
     }
@@ -376,12 +376,12 @@ let stage_2 = () => {
 
     if (stage_num == 7){
         document.querySelector('.base_stage').style.display = 'none';
-        document.querySelector('.each_stage_container').style.animationName = 'quiz1';
+        document.querySelector('.each_stage_container').style.animationName = 'third_each_stage_container';
         document.querySelector('.stage_quiz').innerHTML += `
-        <h1 style = "font-size: 40px; color: rgb(57, 148, 223);">두나무에 대한 설명으로 바르지 않은 것은?</h1><br>
-            <h4 id = "aa1" style = "font-size: 30px" class = "ans" onclick = "quiz3_answer1(this.id)">1. 두나무에서는 업비트 뿐만 아니라 똑똑하게 투자를 돕는 증권 서비스 제공, 블록체인 서비스 제공, 메타버스 플랫폼을 제공한다.</h4><br>
-            <h4 id = "aa2" style = "font-size: 30px" class = "ans" onclick = "quiz3_answer1(this.id)">2. 두나무에서는 다양한 사회공헌활동을 중심으로 사회공동체 삶에 이바지 하고 있다.</h4><br>
-            <h4 id = "aa3" style = "font-size: 30px" class = "ans" onclick = "quiz3_answer1(this.id)">3. 두나무는 디지털 자산 시장의 건강한 성장과 투자자 보호를 위해 '업비트 투자자보호센터'를 출범하고 업비트케어(전문적 심리지원), 디지털 자산 교육, 투자사기 유형과 예방법 안내, 백서 번역 등 다양한 두자자 보호 서비스를 제공하고 있다.</h4><br>
+        <h1 style = "font-size: 27px; color: rgb(57, 148, 223);">두나무에 대한 설명으로 바르지 않은 것은?</h1><br>
+            <h4 id = "aa1" style = "font-size: 20px; border-top: 2px solid #1c387d; padding-top: 10px;" class = "ans" onclick = "quiz3_answer1(this.id)">1. 두나무에서는 업비트 뿐만 아니라 똑똑하게 투자를 돕는 증권 서비스 제공, 블록체인 서비스 제공, 메타버스 플랫폼을 제공한다.</h4><br>
+            <h4 id = "aa2" style = "font-size: 20px; border-top: 2px solid #1c387d; padding-top: 10px;" class = "ans" onclick = "quiz3_answer1(this.id)">2. 두나무에서는 다양한 사회공헌활동을 중심으로 사회공동체 삶에 이바지 하고 있다.</h4><br>
+            <h4 id = "aa3" style = "font-size: 20px; border-top: 2px solid #1c387d; padding-top: 10px;" class = "ans" onclick = "quiz3_answer1(this.id)">3. 두나무는 디지털 자산 시장의 건강한 성장과 투자자 보호를 위해 '업비트 투자자보호센터'를 출범하고 업비트케어(전문적 심리지원), 디지털 자산 교육, 투자사기 유형과 예방법 안내, 백서 번역 등 다양한 두자자 보호 서비스를 제공하고 있다.</h4><br>
         `;
     }
 
@@ -445,10 +445,10 @@ let stage_3 = () => {
         document.querySelector('.meta_quiz').innerHTML = `1. 현실에서의 상호작용을 가상 공간에 구현한 콘텐츠들을 통칭하며 가상, 초월을 의미하는 'OO'와 세계, 우주를 의미하는 '유니버스'(universe)를 합성한 신조어인 이것은 무엇일까요?`;
         document.querySelector('.meta_ans').innerHTML += `
         <br>
-        <div id = "aa1" onclick = "quiz4_answer1(this.id);" class = "metameta">투니버스</div>
-        <div id = "aa2" onclick = "quiz4_answer1(this.id);" class = "metameta">시내버스</div>
-        <div id = "aa3" onclick = "quiz4_answer1(this.id);" class = "metameta">VR</div>
-        <div id = "aa4" onclick = "quiz4_answer1(this.id);" class = "metameta">메타버스</div>
+        <div id = "aa1" style = "border-top: 2px solid #1c387d; font-size: 24px; padding-top: 10px;" onclick = "quiz4_answer1(this.id);" class = "metameta">투니버스</div>
+        <div id = "aa2" style = "border-top: 2px solid #1c387d; font-size: 24px; padding-top: 10px;" onclick = "quiz4_answer1(this.id);" class = "metameta">시내버스</div>
+        <div id = "aa3" style = "border-top: 2px solid #1c387d; font-size: 24px; padding-top: 10px;" onclick = "quiz4_answer1(this.id);" class = "metameta">VR</div>
+        <div id = "aa4" style = "border-top: 2px solid #1c387d; font-size: 24px; padding-top: 10px;" onclick = "quiz4_answer1(this.id);" class = "metameta">메타버스</div>
         `;
     }
 
@@ -456,10 +456,10 @@ let stage_3 = () => {
         document.querySelector('.meta_quiz').innerHTML = `2. 업비트의 회사인 '두나무'에서 운영하고 있는 메타버스 플랫폼의 이름은 무엇인가요? 현재 이용중이신 웹사이트의 부제목인 'Find the Lost OOOOO'의 빈칸 속 단어가 들어갑니다!`;
         document.querySelector('.meta_ans').innerHTML = `
         <br>
-        <div id = "aa1" onclick = "quiz4_answer2(this.id);" class = "metameta">퍼스트블록</div>
-        <div id = "aa2" onclick = "quiz4_answer2(this.id);" class = "metameta">메타블록</div>
-        <div id = "aa3" onclick = "quiz4_answer2(this.id);" class = "metameta">세컨블록</div>
-        <div id = "aa4" onclick = "quiz4_answer2(this.id);" class = "metameta">유어블록</div>
+        <div id = "aa1" style = "border-top: 2px solid #1c387d; font-size: 24px; padding-top: 10px;" onclick = "quiz4_answer2(this.id);" class = "metameta">퍼스트블록</div>
+        <div id = "aa2" style = "border-top: 2px solid #1c387d; font-size: 24px; padding-top: 10px;" onclick = "quiz4_answer2(this.id);" class = "metameta">메타블록</div>
+        <div id = "aa3" style = "border-top: 2px solid #1c387d; font-size: 24px; padding-top: 10px;" onclick = "quiz4_answer2(this.id);" class = "metameta">세컨블록</div>
+        <div id = "aa4" style = "border-top: 2px solid #1c387d; font-size: 24px; padding-top: 10px;" onclick = "quiz4_answer2(this.id);" class = "metameta">유어블록</div>
         `;
     }
 
@@ -495,13 +495,13 @@ let stage_4 = () => {
         document.querySelector('.each_stage_container').style.animationName = 'init_each_stage_container';
         document.querySelector('.explain_box').style.display = 'block';
         document.querySelector('.text_space').innerHTML = `<h1 style = "color: white;">
-            "<br>
+            "<br><br>
             이 마을은 범죄, 사기예방 마을이야..<br>
             <br>
             어.. 뭐지?? 뭐가 날라오는데...???<br>
             <br>
             !!! 일단 피해야해..!!
-            <br>
+            <br><br>
             "</h1>
         `;
     }
@@ -601,4 +601,13 @@ let end_story = () => {
 
 let upbit_open = () => {
     window.location.href = `https://upbit.com/home`;
-}
+};
+
+
+// 추가 수정 필요 사항
+
+// 퀴즈 폼에서 위 아래 border 적용
+
+// 폰트 글씨 바꾸기 ( 가독성 높이기 )
+
+// 퀴즈 컨테이너 스테이지 안에서 메인 보더 변환 알맞게 설정
