@@ -380,7 +380,7 @@ let stage_2 = () => {
         document.querySelector('.stage_quiz').innerHTML += `
         <h1 style = "font-size: 27px; color: rgb(57, 148, 223);">두나무에 대한 설명으로 바르지 않은 것은?</h1><br>
             <h4 id = "aa1" style = "font-size: 20px; border-top: 2px solid #1c387d; padding-top: 10px;" class = "ans" onclick = "quiz3_answer1(this.id)">1. 두나무에서는 업비트 뿐만 아니라 똑똑하게 투자를 돕는 증권 서비스 제공, 블록체인 서비스 제공, 메타버스 플랫폼을 제공한다.</h4><br>
-            <h4 id = "aa2" style = "font-size: 20px; border-top: 2px solid #1c387d; padding-top: 10px;" class = "ans" onclick = "quiz3_answer1(this.id)">2. 두나무에서는 다양한 사회공헌활동을 중심으로 사회공동체 삶에 이바지 하고 있다.</h4><br>
+            <h4 id = "aa2" style = "font-size: 20px; border-top: 2px solid #1c387d; padding-top: 10px;" class = "ans" onclick = "quiz3_answer1(this.id)">2. 두나무는 금융 관련 기업으로 사회공헌활동은 하지 않고 있다.</h4><br>
             <h4 id = "aa3" style = "font-size: 20px; border-top: 2px solid #1c387d; padding-top: 10px;" class = "ans" onclick = "quiz3_answer1(this.id)">3. 두나무는 디지털 자산 시장의 건강한 성장과 투자자 보호를 위해 '업비트 투자자보호센터'를 출범하고 업비트케어(전문적 심리지원), 디지털 자산 교육, 투자사기 유형과 예방법 안내, 백서 번역 등 다양한 두자자 보호 서비스를 제공하고 있다.</h4><br>
         `;
     }
